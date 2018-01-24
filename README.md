@@ -1,26 +1,40 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic Test
 
-## How to use this template
+![Alt Text](https://github.com/barrancocarlos/ionic-test/blob/master/src/public/ionic.jpg)
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Simple Ionic/Angular2 app.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+_App screen capture_
 
-### With the Ionic CLI:
+![Alt Text](https://github.com/barrancocarlos/ionic-test/blob/master/src/public/screen-ionic.jpg)
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have installed all of the following prerequisites on your development machine:
+
+* Git - [Download & Install. Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this GitHub Gist to install Node.js.
+* Ionic and Cordova: [See the official page](https://ionicframework.com/docs/intro/installation/)
+
+### Installing
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+# Clone this repository
+$ git clone https://github.com/barrancocarlos/ionic-test.git
+
+# Go into the repository
+$ cd ionic-test
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ ionic serve
+
+# App will run on localhost:8100
 ```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
